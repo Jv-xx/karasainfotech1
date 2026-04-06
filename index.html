@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,24 +10,28 @@
 
   gtag('config', 'G-9S2MQW32T2');
 </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Karasa Infotech helps local businesses get online with affordable websites, social media setup, and ad campaigns starting at ₹2999." />
   <meta name="keywords" content="website development Surat, digital marketing local business, affordable website India, Google Ads setup, Meta Ads setup, WhatsApp marketing" />
   <title>Karasa Infotech – Get More Customers for Your Local Business</title>
- <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="shortcut icon" href="favicon.ico">
 
- <script type="text/javascript">
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "w1eeaggic2");
-</script>
+  </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
 
@@ -173,9 +176,25 @@
       50% { transform: translateY(-8px); }
     }
     .float-anim { animation: float 3s ease-in-out infinite; }
+
+    /* Blog card tag */
+    .blog-tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: rgba(34,197,94,0.12);
+      color: #86efac;
+      border: 1px solid rgba(34,197,94,0.2);
+      margin-bottom: 12px;
+    }
   </style>
 </head>
 <body class="relative">
+
 
 <!-- =========================================
      STICKY NAVBAR
@@ -194,11 +213,12 @@
 
       <!-- Desktop Links -->
       <div class="hidden md:flex items-center gap-7">
-        <a href="#home" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Home</a>
+        <a href="#home"     class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Home</a>
         <a href="#services" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Services</a>
-        <a href="#pricing" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Pricing</a>
-        <a href="#about" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">About</a>
-        <a href="#contact" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
+        <a href="#pricing"  class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Pricing</a>
+        <a href="#about"    class="nav-link text-sm text-gray-300 hover:text-white transition-colors">About</a>
+        <a href="#blog"     class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Blog</a>
+        <a href="#contact"  class="nav-link text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
       </div>
 
       <!-- CTA -->
@@ -225,11 +245,12 @@
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="pb-4 border-t border-gray-800 mt-1 pt-3">
       <div class="flex flex-col gap-3">
-        <a href="#home" class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Home</a>
+        <a href="#home"     class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Home</a>
         <a href="#services" class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Services</a>
-        <a href="#pricing" class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Pricing</a>
-        <a href="#about" class="text-gray-300 hover:text-white text-sm py-1 mobile-link">About</a>
-        <a href="#contact" class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Contact</a>
+        <a href="#pricing"  class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Pricing</a>
+        <a href="#about"    class="text-gray-300 hover:text-white text-sm py-1 mobile-link">About</a>
+        <a href="#blog"     class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Blog</a>
+        <a href="#contact"  class="text-gray-300 hover:text-white text-sm py-1 mobile-link">Contact</a>
         <a href="https://wa.me/919712478277?text=Hi%20Karasa%20Infotech%2C%20I%20want%20to%20know%20more%20about%20your%20services." target="_blank"
            class="flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm w-full justify-center mt-2"
            style="background: #22C55E; color: #111827;">
@@ -266,7 +287,8 @@
       </h1>
 
       <p class="text-gray-400 text-lg sm:text-xl mb-8 leading-relaxed max-w-xl animate-fadeInDown" style="animation-delay:0.2s;">
- We help businesses get more leads, sales & visibility using reels, ads & smart websites.     </p>
+        We help businesses get more leads, sales &amp; visibility using reels, ads &amp; smart websites.
+      </p>
 
       <div class="flex flex-col sm:flex-row gap-3 mb-8 animate-fadeInDown" style="animation-delay:0.3s;">
         <a href="https://wa.me/919712478277?text=Hi%20Karasa%20Infotech%2C%20I%20want%20to%20know%20more%20about%20your%20services." target="_blank"
@@ -340,7 +362,7 @@
         <ul class="space-y-2">
           <li class="flex items-center gap-2 text-sm text-gray-300"><span style="color:#22C55E">✓</span> Mobile-friendly design</li>
           <li class="flex items-center gap-2 text-sm text-gray-300"><span style="color:#22C55E">✓</span> WhatsApp button integration</li>
-          <li class="flex items-center gap-2 text-sm text-gray-300"><span style="color:#22C55E">✓</span> Fast setup & delivery</li>
+          <li class="flex items-center gap-2 text-sm text-gray-300"><span style="color:#22C55E">✓</span> Fast setup &amp; delivery</li>
         </ul>
       </div>
 
@@ -380,11 +402,12 @@
       <div class="service-card rounded-2xl p-6 fade-in" style="background: #1a2336; border: 1px solid #1f2d44;">
         <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style="background: rgba(34,197,94,0.12);">
           <svg class="w-6 h-6" style="color:#22C55E" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/>
           </svg>
         </div>
         <h3 class="font-heading font-bold text-white text-lg mb-2">Meta Ads Setup <span class="text-xs px-1.5 py-0.5 rounded ml-1 font-semibold" style="background: rgba(34,197,94,0.15); color: #86efac;">Starter</span></h3>
-        <p class="text-gray-500 text-sm mb-4">We set up your Facebook & Instagram ads so your business is visible to the right people.</p>
+        <p class="text-gray-500 text-sm mb-4">We set up your Facebook &amp; Instagram ads so your business is visible to the right people.</p>
         <ul class="space-y-2">
           <li class="flex items-center gap-2 text-sm text-gray-300"><span style="color:#22C55E">✓</span> Facebook + Instagram setup</li>
           <li class="flex items-center gap-2 text-sm text-gray-300"><span style="color:#22C55E">✓</span> Audience targeting setup</li>
@@ -508,7 +531,6 @@
 
     <!-- Steps: desktop horizontal -->
     <div class="hidden md:grid grid-cols-4 gap-0 relative fade-in">
-      <!-- connector lines -->
       <div class="absolute top-7 left-1/4 w-1/2 h-0.5" style="background: linear-gradient(90deg, rgba(34,197,94,0.4), rgba(34,197,94,0.4));"></div>
       <div class="absolute top-7 left-1/2 w-1/4 h-0.5" style="background: linear-gradient(90deg, rgba(34,197,94,0.4), rgba(34,197,94,0.2));"></div>
       <div class="absolute top-7 left-1/4 w-1/4 h-0.5" style="background: linear-gradient(90deg, rgba(34,197,94,0.2), rgba(34,197,94,0.4));"></div>
@@ -559,7 +581,7 @@
 
 
 <!-- =========================================
-     WHY CHOOSE US
+     WHY CHOOSE US / ABOUT
      ========================================= -->
 <section id="about" class="py-20 px-4 sm:px-6 relative z-10" style="background: linear-gradient(180deg, #111827, #0f1724);">
   <div class="max-w-6xl mx-auto">
@@ -631,7 +653,100 @@
           </div>
         </div>
       </div>
+
     </div>
+  </div>
+</section>
+
+
+<!-- =========================================
+     BLOG SECTION
+     (placed BEFORE contact section)
+     ========================================= -->
+<section id="blog" class="py-20 px-4 sm:px-6 relative z-10" style="background: linear-gradient(180deg, #0f1724 0%, #111827 100%);">
+  <div class="max-w-6xl mx-auto">
+
+    <div class="text-center mb-14 fade-in">
+      <div class="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-4" style="background: rgba(34,197,94,0.1); color: #86efac; border: 1px solid rgba(34,197,94,0.2);">Blog &amp; Insights</div>
+      <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-3">Learn &amp; Grow Your <span class="gradient-text">Business</span></h2>
+      <p class="text-gray-500 max-w-lg mx-auto text-base">Tips, strategies &amp; guides to help local businesses get more customers using digital marketing.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Blog Card 1 -->
+      <div class="service-card rounded-2xl p-6 fade-in flex flex-col" style="background: #1a2336; border: 1px solid #1f2d44;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background: rgba(34,197,94,0.12);">
+          <svg class="w-5 h-5" style="color:#22C55E" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+          </svg>
+        </div>
+        <span class="blog-tag">Local SEO</span>
+        <h3 class="font-heading font-bold text-white text-lg mb-3 leading-snug">
+          Top Digital Marketing Agencies in Surat (2026)
+        </h3>
+        <p class="text-gray-500 text-sm mb-5 flex-1">
+          Discover the best digital marketing agencies in Surat to grow your business faster — with pricing, services, and honest comparisons.
+        </p>
+        <a href="blog/top-digital-marketing-agency-surat.html"
+           class="inline-flex items-center gap-1.5 text-accent text-sm font-semibold hover:gap-3 transition-all">
+          Read More →
+        </a>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="service-card rounded-2xl p-6 fade-in flex flex-col" style="background: #1a2336; border: 1px solid #1f2d44;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background: rgba(34,197,94,0.12);">
+          <svg class="w-5 h-5" style="color:#22C55E" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+        </div>
+        <span class="blog-tag">Digital Marketing</span>
+        <h3 class="font-heading font-bold text-white text-lg mb-3 leading-snug">
+          How Local Businesses Get Customers Online
+        </h3>
+        <p class="text-gray-500 text-sm mb-5 flex-1">
+          Learn simple digital marketing strategies to attract more customers in your local area — without a big budget.
+        </p>
+        <a href="blog/get-customers-online.html"
+           class="inline-flex items-center gap-1.5 text-accent text-sm font-semibold hover:gap-3 transition-all">
+          Read More →
+        </a>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="service-card rounded-2xl p-6 fade-in flex flex-col" style="background: #1a2336; border: 1px solid #1f2d44;">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background: rgba(34,197,94,0.12);">
+          <svg class="w-5 h-5" style="color:#22C55E" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <span class="blog-tag">Social Media</span>
+        <h3 class="font-heading font-bold text-white text-lg mb-3 leading-snug">
+          Social Media Marketing for Surat Businesses
+        </h3>
+        <p class="text-gray-500 text-sm mb-5 flex-1">
+          Step-by-step guide to grow your business using Instagram and Facebook — made for local shops and service providers.
+        </p>
+        <a href="blog/social-media-marketing-surat.html"
+           class="inline-flex items-center gap-1.5 text-accent text-sm font-semibold hover:gap-3 transition-all">
+          Read More →
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Blog CTA -->
+    <div class="text-center mt-12 fade-in">
+      <p class="text-gray-500 text-sm mb-4">Want to know how digital marketing can help your business?</p>
+      <a href="https://wa.me/919712478277?text=Hi%20I%20want%20a%20free%20marketing%20audit%20for%20my%20business" target="_blank"
+         class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-bold text-base transition-all hover:scale-105 glow-green-sm"
+         style="background: #22C55E; color: #111827;">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Get Free Marketing Audit
+      </a>
+    </div>
+
   </div>
 </section>
 
@@ -714,11 +829,12 @@
       <div>
         <h5 class="font-heading font-bold text-white text-sm mb-4 uppercase tracking-wider">Quick Links</h5>
         <ul class="space-y-2.5">
-          <li><a href="#home" class="text-gray-500 hover:text-accent text-sm transition-colors">Home</a></li>
+          <li><a href="#home"     class="text-gray-500 hover:text-accent text-sm transition-colors">Home</a></li>
           <li><a href="#services" class="text-gray-500 hover:text-accent text-sm transition-colors">Services</a></li>
-          <li><a href="#pricing" class="text-gray-500 hover:text-accent text-sm transition-colors">Pricing</a></li>
-          <li><a href="#about" class="text-gray-500 hover:text-accent text-sm transition-colors">About</a></li>
-          <li><a href="#contact" class="text-gray-500 hover:text-accent text-sm transition-colors">Contact</a></li>
+          <li><a href="#pricing"  class="text-gray-500 hover:text-accent text-sm transition-colors">Pricing</a></li>
+          <li><a href="#about"    class="text-gray-500 hover:text-accent text-sm transition-colors">About</a></li>
+          <li><a href="#blog"     class="text-gray-500 hover:text-accent text-sm transition-colors">Blog</a></li>
+          <li><a href="#contact"  class="text-gray-500 hover:text-accent text-sm transition-colors">Contact</a></li>
         </ul>
       </div>
 
@@ -749,7 +865,7 @@
     </div>
 
     <div class="pt-6 border-t flex flex-col sm:flex-row items-center justify-between gap-2" style="border-color: #1f2d44;">
-      <p class="text-gray-700 text-xs">© 2025 Karasa Infotech. All rights reserved.</p>
+      <p class="text-gray-700 text-xs">© 2026 Karasa Infotech. All rights reserved.</p>
       <p class="text-gray-700 text-xs">Made with care for local businesses 🇮🇳</p>
     </div>
   </div>
